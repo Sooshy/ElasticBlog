@@ -20,5 +20,20 @@ namespace ElasticBlog.Controllers
             await _postAdderLogic.Add(post);
             return Ok();
         }
+
+        public Task<IActionResult> DeletePost()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<IActionResult> UpdatePost()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<IActionResult> SearchPost()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
